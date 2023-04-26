@@ -3,10 +3,10 @@ pipeline{
   agent {
     label 'masternodes'
   }
-    stages{
-        stage("demo"){
-            steps{
-                assignment()
+  stages {
+    stage("demo"){
+         steps{
+             call()
             }
         }
     }

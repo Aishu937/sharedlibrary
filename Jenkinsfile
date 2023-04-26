@@ -1,10 +1,9 @@
 @Library('sharedlibrary_demo') _
 pipeline{
   agent {
-    label 'masternodes'
-  }
-  stages {
-    stage("demo"){
+    label 'masternodes'}
+  stages {
+    stage("demo") {
          steps{
              call()
             }

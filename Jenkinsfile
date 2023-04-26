@@ -1,4 +1,4 @@
-@Library('sharedlibrary_demo') _
+@Library('sharedlibrary') _
 pipeline{
   agent {
     label 'masternodes'}

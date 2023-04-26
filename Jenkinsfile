@@ -1,10 +1,5 @@
 @Library('sharedlibrary_demo') _
-
- 
-
-pipeline
-{
-
+pipeline{
   agent {
     label 'masternodes'
   }

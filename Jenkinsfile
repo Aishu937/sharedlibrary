@@ -5,7 +5,7 @@ pipeline{
   stages {
     stage("demo") {
          steps {
-             call()
+             sharedlibrary_demo()
             }
         }
     }

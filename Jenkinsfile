@@ -1,4 +1,4 @@
-@Library('sharedlibrary-demo') _
+@Library('sharedlibrary_demo') _
 
  
 

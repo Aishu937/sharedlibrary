@@ -3,10 +3,10 @@ pipeline{
   agent {
     label 'masternodes'}
   stages {
-    stage("demo") {
-         steps {
-             sharedlibrary_demo()
-            }
-        }
-    }
+    stage("demo") {
+      steps {
+        sharedlibrary_demo()
+      }
+    }
+  }
 }

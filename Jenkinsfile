@@ -1,11 +1,16 @@
-@Library('sharedlibrary') _
-pipeline{
+@Library('sharedLibrary') _
+
+pipeline {
   agent {
-    label 'masternodes'}
+    label 'node1'
+  }
+
   stages {
-    stage("demo") {
+    stage('Print Variable') {
       steps {
-        sharedlibrary_demo()
+        script {
+          sharedlib()
+        }
       }
     }
   }

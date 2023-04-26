@@ -4,7 +4,7 @@ pipeline{
     label 'masternodes'}
   stages {
     stage("demo") {
-         steps{
+         steps {
              call()
             }
         }
